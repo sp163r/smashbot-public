@@ -31,6 +31,52 @@ stages = [
     "Hollow Bastion"
 ]
 
+uistages = [
+    discord.SelectOption(
+        label="Battlefield",
+        emoji=None,
+        value=0
+    ),
+    discord.SelectOption(
+        label="Small Battlefield",
+        emoji=None,
+        value=1
+    ),
+    discord.SelectOption(
+        label="Pokémon Stadium 2",
+        emoji=None,
+        value=2
+    ),
+    discord.SelectOption(
+        label="Smashville",
+        emoji=None,
+        value=3
+    ),
+    discord.SelectOption(
+        label="Town & City",
+        emoji=None,
+        value=4
+    )
+]
+
+uicounterpicks = [
+    discord.SelectOption(
+        label="Final Destination",
+        emoji=None,
+        value=5
+    ),
+    discord.SelectOption(
+        label="Kalos Pokémon League",
+        emoji=None,
+        value=6
+    ),
+    discord.SelectOption(
+        label="Hollow Bastion",
+        emoji=None,
+        value=7
+    )
+]
+
 
 # Stage strike view with counterpicks
 class StageStrikeC(discord.ui.View):
@@ -44,48 +90,7 @@ class StageStrikeC(discord.ui.View):
         min_values=2,
         max_values=2,
         placeholder="Strike a stage...",
-        options=[
-            discord.SelectOption(
-                label="Battlefield",
-                emoji=None,
-                value=0
-            ),
-            discord.SelectOption(
-                label="Small Battlefield",
-                emoji=None,
-                value=1
-            ),
-            discord.SelectOption(
-                label="Pokémon Stadium 2",
-                emoji=None,
-                value=2
-            ),
-            discord.SelectOption(
-                label="Smashville",
-                emoji=None,
-                value=3
-            ),
-            discord.SelectOption(
-                label="Town & City",
-                emoji=None,
-                value=4
-            ),
-            discord.SelectOption(
-                label="Final Destination",
-                emoji=None,
-                value=5
-            ),
-            discord.SelectOption(
-                label="Kalos Pokémon League",
-                emoji=None,
-                value=6
-            ),
-            discord.SelectOption(
-                label="Hollow Bastion",
-                emoji=None,
-                value=7
-            )
-        ]
+        options=uistages + uicounterpicks
     )
     async def select_callback(self, interaction: discord.Interaction, select: discord.ui.Select):
         self.strike1 = select.values[0]
@@ -108,33 +113,7 @@ class StageStrikeN(discord.ui.View):
         min_values=2,
         max_values=2,
         placeholder="Strike a stage...",
-        options=[
-            discord.SelectOption(
-                label="Battlefield",
-                emoji=None,
-                value=0
-            ),
-            discord.SelectOption(
-                label="Small Battlefield",
-                emoji=None,
-                value=1
-            ),
-            discord.SelectOption(
-                label="Pokémon Stadium 2",
-                emoji=None,
-                value=2
-            ),
-            discord.SelectOption(
-                label="Smashville",
-                emoji=None,
-                value=3
-            ),
-            discord.SelectOption(
-                label="Town & City",
-                emoji=None,
-                value=4
-            )
-        ]
+        options=uistages
     )
     async def select_callback(self, interaction: discord.Interaction, select: discord.ui.Select):
         self.strike1 = select.values[0]
@@ -156,33 +135,7 @@ class StageStrikeN1(discord.ui.View):
         min_values=1,
         max_values=1,
         placeholder="Strike a stage...",
-        options=[
-            discord.SelectOption(
-                label="Battlefield",
-                emoji=None,
-                value=0
-            ),
-            discord.SelectOption(
-                label="Small Battlefield",
-                emoji=None,
-                value=1
-            ),
-            discord.SelectOption(
-                label="Pokémon Stadium 2",
-                emoji=None,
-                value=2
-            ),
-            discord.SelectOption(
-                label="Smashville",
-                emoji=None,
-                value=3
-            ),
-            discord.SelectOption(
-                label="Town & City",
-                emoji=None,
-                value=4
-            )
-        ]
+        options=uistages
     )
     async def select_callback(self, interaction: discord.Interaction, select: discord.ui.Select):
         self.strike1 = select.values[0]
@@ -203,48 +156,7 @@ class StageChooseC(discord.ui.View):
         min_values=1,
         max_values=1,
         placeholder="Strike a stage...",
-        options=[
-            discord.SelectOption(
-                label="Battlefield",
-                emoji=None,
-                value=0
-            ),
-            discord.SelectOption(
-                label="Small Battlefield",
-                emoji=None,
-                value=1
-            ),
-            discord.SelectOption(
-                label="Pokémon Stadium 2",
-                emoji=None,
-                value=2
-            ),
-            discord.SelectOption(
-                label="Smashville",
-                emoji=None,
-                value=3
-            ),
-            discord.SelectOption(
-                label="Town & City",
-                emoji=None,
-                value=4
-            ),
-            discord.SelectOption(
-                label="Final Destination",
-                emoji=None,
-                value=5
-            ),
-            discord.SelectOption(
-                label="Kalos Pokémon League",
-                emoji=None,
-                value=6
-            ),
-            discord.SelectOption(
-                label="Hollow Bastion",
-                emoji=None,
-                value=7
-            )
-        ]
+        options=uistages + uicounterpicks
     )
     async def select_callback(self, interaction: discord.Interaction, select: discord.ui.Select):
         self.choice = select.values[0]
@@ -265,33 +177,7 @@ class StageChooseN(discord.ui.View):
         min_values=1,
         max_values=1,
         placeholder="Strike a stage...",
-        options=[
-            discord.SelectOption(
-                label="Battlefield",
-                emoji=None,
-                value=0
-            ),
-            discord.SelectOption(
-                label="Small Battlefield",
-                emoji=None,
-                value=1
-            ),
-            discord.SelectOption(
-                label="Pokémon Stadium 2",
-                emoji=None,
-                value=2
-            ),
-            discord.SelectOption(
-                label="Smashville",
-                emoji=None,
-                value=3
-            ),
-            discord.SelectOption(
-                label="Town & City",
-                emoji=None,
-                value=4
-            )
-        ]
+        options=uistages
     )
     async def select_callback(self, interaction: discord.Interaction, select: discord.ui.Select):
         self.choice = select.values[0]
@@ -371,7 +257,7 @@ class ReportResults(discord.ui.View):
     )
     async def callback(self, interaction: discord.Interaction, button: discord.ui.Button):
         button.disabled = True
-        await interaction.response.defer(thinking=False)
+        await interaction.response.edit_message(view=self)
         self.stop()
 
 
@@ -414,7 +300,7 @@ async def match(ctx, *, msg):
     await p1.send(embed=embed)  # ask p1 who is playing
     c1 = await dmPlayerC(p1, ch)  # get response
     if c1 is None:
-        return # dont continue if forfeit
+        return  # dont continue if forfeit
 
     embed = discord.Embed(title="Who are you playing?",
                           description="Message me the character you are playing.\n-# You have 5 minutes to respond or else you will forfeit.",
@@ -422,11 +308,12 @@ async def match(ctx, *, msg):
     await p2.send(embed=embed)  # ask p2 who is playing
     c2 = await dmPlayerC(p2, ch)  # get response
     if c2 is None:
-        return # dont continue if forfeit
+        return  # dont continue if forfeit
 
     await ch.send(f'{p1.mention}{p2.mention}')
     embed = discord.Embed(title=f'__{p1.display_name} VS. {p2.display_name}__',
-                          description=f'{p1.display_name} will be playing {c1}.\n{p2.display_name} will be playing {c2}.')
+                          description=f'{p1.display_name} will be playing {c1}.\n{p2.display_name} will be playing {c2}.',
+                          color=discord.Color.yellow())
     await ch.send(embed=embed)  # declare characters
 
     # stage striking
@@ -467,13 +354,13 @@ async def match(ctx, *, msg):
     await ch.send(f'{p1.mention}{p2.mention}')  # @ the users
     embed = discord.Embed(title=f'__{p1.display_name} VS. {p2.display_name}__',
                           description=f'{p1.display_name} will be playing {c1}.\n{p2.display_name} will be playing {c2}.\nThey will be playing on {stages[int(view.choice)]}.')
-    await ch.send(embed=embed) # declare match details
+    await ch.send(embed=embed)  # declare match details
 
     # report results
     embed = discord.Embed(title=f'Report results',
                           description=f'When you are done, press the button.')
     view = ReportResults()
-    await ctx.send(embed=embed, view=view) # after you press the button it will start reporting results phase
+    await ctx.send(embed=embed, view=view)  # after you press the button it will start reporting results phase
     await view.wait()
 
     isDone = False
@@ -483,35 +370,37 @@ async def match(ctx, *, msg):
                               description=f"Player 1: {p1.display_name}\nPlayer 2: {p2.display_name}",
                               color=discord.Color.yellow())
         view = WinSelect(p1=p1, p2=p2)
-        await p1.send(embed=embed, view=view) # ask p1 who won
+        await p1.send(embed=embed, view=view)  # ask p1 who won
         await view.wait()
-        p1selection = view.choice # save selection
-        await p1.send(f"Great! You selected {p1selection.display_name}. Go back to the server.") # confirm what they chose
+        p1selection = view.choice  # save selection
+        await p1.send(
+            f"Great! You selected {p1selection.display_name}. Go back to the server.")  # confirm what they chose
 
         view = WinSelect(p1=p1, p2=p2)
-        await p2.send(embed=embed, view=view) # ask p2 who won
+        await p2.send(embed=embed, view=view)  # ask p2 who won
         await view.wait()
-        p2selection = view.choice # save selection
-        await p2.send(f"Great! You selected {p2selection.display_name}. Go back to the server.") # confirm
+        p2selection = view.choice  # save selection
+        await p2.send(f"Great! You selected {p2selection.display_name}. Go back to the server.")  # confirm
 
-        if p1selection == p2selection: # do they agree?
+        if p1selection == p2selection:  # do they agree?
             isDone = True
         else:
             await ctx.send(f'{p1.mention}{p2.mention}\n### Both players do not agree. Trying again.')
 
-    await ctx.send(f'{p1.mention}{p2.mention}\n{p1selection.mention} wins!') # declare winner
+    await ctx.send(f'{p1.mention}{p2.mention}\n{p1selection.mention} wins!')  # declare winner
 
 
-async def dmPlayerC(user, ch): # get player message
+async def dmPlayerC(user, ch):  # get player message
     try:
-        char = await bot.wait_for('message', check=lambda x: x.channel == user.dm_channel and x.author == user, timeout=300) # wait for a message for 5 min
-    except asyncio.TimeoutError: # check for timeout
+        char = await bot.wait_for('message', check=lambda x: x.channel == user.dm_channel and x.author == user,
+                                  timeout=300)  # wait for a message for 5 min
+    except asyncio.TimeoutError:  # check for timeout
         await user.send("Timed out :(")
-        await ch.send(f'{user.display_name} forfeited due to timeout.') # forfeit player
+        await ch.send(f'{user.display_name} forfeited due to timeout.')  # forfeit player
         return None
     else:
         await user.send("Great! Go back to the server.")
 
         return char.content
 
-bot.run(token, log_handler=handler, log_level=logging.DEBUG) # start up bot
+bot.run(token, log_handler=handler, log_level=logging.DEBUG)  # start up bot
