@@ -47,42 +47,42 @@ class StageStrikeC(discord.ui.View):
         options=[
             discord.SelectOption(
                 label="Battlefield",
-                emoji="<:Battlefield:1434707757289832500>",
+                emoji=None,
                 value=0
             ),
             discord.SelectOption(
                 label="Small Battlefield",
-                emoji="<:Small:1434707711815061554>",
+                emoji=None,
                 value=1
             ),
             discord.SelectOption(
                 label="Pokémon Stadium 2",
-                emoji="<:Ps2:1434707619422929096>",
+                emoji=None,
                 value=2
             ),
             discord.SelectOption(
                 label="Smashville",
-                emoji="<:Smashville:1434707445250392084>",
+                emoji=None,
                 value=3
             ),
             discord.SelectOption(
                 label="Town & City",
-                emoji="<:Town:1434707359149723719>",
+                emoji=None,
                 value=4
             ),
             discord.SelectOption(
                 label="Final Destination",
-                emoji="<:Final:1434707665661198357>",
+                emoji=None,
                 value=5
             ),
             discord.SelectOption(
                 label="Kalos Pokémon League",
-                emoji="<:Kalos:1434707487919177860>",
+                emoji=None,
                 value=6
             ),
             discord.SelectOption(
                 label="Hollow Bastion",
-                emoji="<:Hollow:1434707555145351250>",
+                emoji=None,
                 value=7
             )
         ]
@@ -111,27 +111,27 @@ class StageStrikeN(discord.ui.View):
         options=[
             discord.SelectOption(
                 label="Battlefield",
-                emoji="<:Battlefield:1434707757289832500>",
+                emoji=None,
                 value=0
             ),
             discord.SelectOption(
                 label="Small Battlefield",
-                emoji="<:Small:1434707711815061554>",
+                emoji=None,
                 value=1
             ),
             discord.SelectOption(
                 label="Pokémon Stadium 2",
-                emoji="<:Ps2:1434707619422929096>",
+                emoji=None,
                 value=2
             ),
             discord.SelectOption(
                 label="Smashville",
-                emoji="<:Smashville:1434707445250392084>",
+                emoji=None,
                 value=3
             ),
             discord.SelectOption(
                 label="Town & City",
-                emoji="<:Town:1434707359149723719>",
+                emoji=None,
                 value=4
             )
         ]
@@ -159,27 +159,27 @@ class StageStrikeN1(discord.ui.View):
         options=[
             discord.SelectOption(
                 label="Battlefield",
-                emoji="<:Battlefield:1434707757289832500>",
+                emoji=None,
                 value=0
             ),
             discord.SelectOption(
                 label="Small Battlefield",
-                emoji="<:Small:1434707711815061554>",
+                emoji=None,
                 value=1
             ),
             discord.SelectOption(
                 label="Pokémon Stadium 2",
-                emoji="<:Ps2:1434707619422929096>",
+                emoji=None,
                 value=2
             ),
             discord.SelectOption(
                 label="Smashville",
-                emoji="<:Smashville:1434707445250392084>",
+                emoji=None,
                 value=3
             ),
             discord.SelectOption(
                 label="Town & City",
-                emoji="<:Town:1434707359149723719>",
+                emoji=None,
                 value=4
             )
         ]
@@ -206,42 +206,42 @@ class StageChooseC(discord.ui.View):
         options=[
             discord.SelectOption(
                 label="Battlefield",
-                emoji="<:Battlefield:1434707757289832500>",
+                emoji=None,
                 value=0
             ),
             discord.SelectOption(
                 label="Small Battlefield",
-                emoji="<:Small:1434707711815061554>",
+                emoji=None,
                 value=1
             ),
             discord.SelectOption(
                 label="Pokémon Stadium 2",
-                emoji="<:Ps2:1434707619422929096>",
+                emoji=None,
                 value=2
             ),
             discord.SelectOption(
                 label="Smashville",
-                emoji="<:Smashville:1434707445250392084>",
+                emoji=None,
                 value=3
             ),
             discord.SelectOption(
                 label="Town & City",
-                emoji="<:Town:1434707359149723719>",
+                emoji=None,
                 value=4
             ),
             discord.SelectOption(
                 label="Final Destination",
-                emoji="<:Final:1434707665661198357>",
+                emoji=None,
                 value=5
             ),
             discord.SelectOption(
                 label="Kalos Pokémon League",
-                emoji="<:Kalos:1434707487919177860>",
+                emoji=None,
                 value=6
             ),
             discord.SelectOption(
                 label="Hollow Bastion",
-                emoji="<:Hollow:1434707555145351250>",
+                emoji=None,
                 value=7
             )
         ]
@@ -268,27 +268,27 @@ class StageChooseN(discord.ui.View):
         options=[
             discord.SelectOption(
                 label="Battlefield",
-                emoji="<:Battlefield:1434707757289832500>",
+                emoji=None,
                 value=0
             ),
             discord.SelectOption(
                 label="Small Battlefield",
-                emoji="<:Small:1434707711815061554>",
+                emoji=None,
                 value=1
             ),
             discord.SelectOption(
                 label="Pokémon Stadium 2",
-                emoji="<:Ps2:1434707619422929096>",
+                emoji=None,
                 value=2
             ),
             discord.SelectOption(
                 label="Smashville",
-                emoji="<:Smashville:1434707445250392084>",
+                emoji=None,
                 value=3
             ),
             discord.SelectOption(
                 label="Town & City",
-                emoji="<:Town:1434707359149723719>",
+                emoji=None,
                 value=4
             )
         ]
