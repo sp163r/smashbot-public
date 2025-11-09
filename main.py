@@ -77,7 +77,6 @@ uicounterpicks = [
     )
 ]
 
-
 # Stage strike view with counterpicks
 class StageStrikeC(discord.ui.View):
     def __init__(self):
@@ -155,7 +154,7 @@ class StageChooseC(discord.ui.View):
     @discord.ui.select(
         min_values=1,
         max_values=1,
-        placeholder="Strike a stage...",
+        placeholder="Choose a stage...",
         options=uistages + uicounterpicks
     )
     async def select_callback(self, interaction: discord.Interaction, select: discord.ui.Select):
@@ -176,7 +175,7 @@ class StageChooseN(discord.ui.View):
     @discord.ui.select(
         min_values=1,
         max_values=1,
-        placeholder="Strike a stage...",
+        placeholder="Choose a stage...",
         options=uistages
     )
     async def select_callback(self, interaction: discord.Interaction, select: discord.ui.Select):
