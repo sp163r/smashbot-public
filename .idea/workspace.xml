@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b43ea4b0-8aa7-473a-a7b5-a89a789b2bd6" name="Changes" comment="initial">
-      <change afterPath="$PROJECT_DIR$/stagestrike1.json" afterDir="false" />
+    <list default="true" id="b43ea4b0-8aa7-473a-a7b5-a89a789b2bd6" name="Changes" comment="emoji ids are mine and they wont work for you">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discord.log" beforeDir="false" afterPath="$PROJECT_DIR$/discord.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/450px-SSBU-Battlefield.png" beforeDir="false" afterPath="$PROJECT_DIR$/emoji images/Battlefield.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/450px-SSBU-Final_Destination.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/emoji images/Final.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/450px-SSBU-Hollow_Bastion.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/emoji images/Hollow.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/450px-SSBU-Kalos_Pokémon_League.png" beforeDir="false" afterPath="$PROJECT_DIR$/emoji images/Kalos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/450px-SSBU-Pokémon_Stadium_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/emoji images/ps2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/450px-SSBU-Small-Battlefield.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/emoji images/Small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/450px-SSBU-Smashville.png" beforeDir="false" afterPath="$PROJECT_DIR$/emoji images/Smashville.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/450px-SSBU-Town_and_City_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/emoji images/Town.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +38,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/sp163r/smashbot.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/sp163r/smashbot-public.git&quot;,
     &quot;accountId&quot;: &quot;5521af81-41cd-4b27-965b-9c5b92a3fa8e&quot;
   }
 }</component>
@@ -54,6 +58,7 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/imad0/PycharmProjects/smashbot&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -90,6 +95,9 @@
       <workItem from="1761185810212" duration="3230000" />
       <workItem from="1761329114367" duration="1032000" />
       <workItem from="1762127888508" duration="16401000" />
+      <workItem from="1762653462874" duration="1532000" />
+      <workItem from="1762718324981" duration="244000" />
+      <workItem from="1762720151138" duration="855000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -99,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760923087539</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="emoji ids are mine and they wont work for you">
+      <option name="closed" value="true" />
+      <created>1762654917769</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762654917769</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="emoji ids are mine and they wont work for you" />
+    <option name="LAST_COMMIT_MESSAGE" value="emoji ids are mine and they wont work for you" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/smashbot$main.coverage" NAME="main Coverage Results" MODIFIED="1762212562330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
