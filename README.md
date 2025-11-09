@@ -33,10 +33,12 @@ This discord bot is for managing Super Smash Ultimate matches how tournaments wo
   - Tick the boxes that correspond to the intents in line 13-18 in [main.py](https://github.com/sp163r/smashbot-public/blob/master/main.py)
 - Generate a token
 - Replace "INSERT_TOKEN_HERE" with your token in [.env](https://github.com/sp163r/smashbot-public/blob/master/.env)
-- **OPTIONAL:** make custom emojis for stages and replace `emoji=none` in [main.py](https://github.com/sp163r/smashbot-public/blob/master/main.py) with your emojis
-  - You have to get the id of the emoji by inputting your emoji and putting `\` before it to get the id. Should look something like this: `\:INSERT_EMOJI_HERE:`
-  - Then copy + paste it. Should look something like this: `emoji=<EMOJI_NAME:EMOJI_ID>`
-- Just realized this is probably the hard way there is an emojis tab in the dev pool.
+- **OPTIONAL:** make custom emojis for stages and replace `emoji=none` in [main.py](https://github.com/sp163r/smashbot-public/blob/master/main.py) with your emoji.
+  - To do this go to your dev portal
+  - Click emojis
+  - Upload you emojis
+  - Copy your id
+  - It should look like this: `emoji="<:EMOJI_NAME:EMOJI_ID>"`
 
 ## Any issues?
 There is an issues tab I will look at it probably
